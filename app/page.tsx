@@ -1,8 +1,9 @@
+import MapFilterItems from "./_components/MapFilterItems";
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-    </main>
-  );
+	return (
+		<div className="container mx-auto px-5 lg:px-10">
+			<MapFilterItems />
+		</div>
+	);
 }
